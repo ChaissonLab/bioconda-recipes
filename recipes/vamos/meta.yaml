@@ -1,4 +1,4 @@
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 {% set name = "vamos" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ChaissonLab/vamos/archive/refs/tags/vamos-v{{ version }}.tar.gz
-  sha256: f7dc48570c80a9abdb0defb2e5c5d67174630a78eb1413446666870cbd863f5c
+  sha256: c9089a07fd0aeb38ec67e69a8aa5b8de5e66b9438bab21eafb1ca37b9d9a28df
   patches:
     - vamos-aarch64.patch  # [arm64 or aarch64]
 
